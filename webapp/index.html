@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="webapp">
+    <head> 
+   		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body ng-controller="PeopleCtrl">	    
+        <div ng-show="screenWidth && screenHeigth">
+			<div>
+			    <ul>
+			        <li style="float: left;display: block;width: 5%;height: 40px;"><b>Id</b></li>
+			        <li style="float: left;display: block;width: 15%;height: 40px;"><b>Name</b></li>
+			        <li style="float: left;display: block;width: 80%;height: 40px;"><b>DisclosableInfo</b></li>
+			    </ul>
+		    </div>
+			<ul ng-repeat="person in people">	
+				<div>				
+			        <li style="float: left;display: block;width: 5%;">{{person.id}}</li>
+			        <li style="float: left;display: block;width: 15%; padding-rigth: 20px!important;">{{person.name}}</li>
+			        <li style="float: left;display: block;width: 80%;">{{person.disclosableInfo}}</li>
+			    </div>
+			</ul>
+		</div>
+		<script type="text/javascript" src="app/modules/angular.js"></script>
+    	<script type="text/javascript" src="app/scripts/app.js"></script>
+		<script type="text/javascript" src="app/scripts/controllers/people.js"></script>
+		<script type="text/javascript" src="app/scripts/services/people-service.js"></script>
+    </body>
+</html>
