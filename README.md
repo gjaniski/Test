@@ -3,15 +3,12 @@
 Download all files.
 
 Install NodeJs.
-
 On Linux: $ sudo apt-get install nodejs
 
 Update Npm.
-
 On Linux: $ sudo npm install npm -g
 
 Install Express.
-
 On Linux: $ npm install express
 
 Install Cors.
