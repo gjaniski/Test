@@ -14,7 +14,7 @@ On Linux: $ npm install express
 Install Cors.
 On Linux: $ npm install cors
 
-Open a command and go to the downloaded folder. After that, follow this path: ../app/scripts/node files 
+Open a command and go to the downloaded folder. After that, follow this path: ../webapp/app/scripts/node files 
 
 Type it: node people-web-service.js
 
